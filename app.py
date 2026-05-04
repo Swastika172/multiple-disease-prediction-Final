@@ -665,7 +665,7 @@ if selected == "Heart Disease Prediction":
     with col2: thalach  = st.text_input("Maximum Heart Rate achieved")
     with col3: exang    = st.text_input("Exercise Induced Angina")
     with col1: oldpeak  = st.text_input("ST depression induced by exercise")
-    with col2: slope    = st.text_input("Slope of the peak exercise ST segment: 0=Downsloping(worst);1=Flat;2=Upsloping(best)")
+    with col2: slope    = st.text_input("Slope of the peak exercise ST segment: 0=Downsloping;1=Flat;2=Upsloping")
     with col3: ca       = st.text_input("Major vessels colored by flourosopy: 0,1,2,3")
     with col1: thal     = st.text_input("thal: 0 = normal; 1 = fixed defect; 2 = reversable defect")
 
