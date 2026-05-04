@@ -661,7 +661,7 @@ if selected == "Heart Disease Prediction":
     with col1: trestbps = st.text_input("Resting Blood Pressure")
     with col2: chol     = st.text_input("Serum Cholestoral in mg/dl")
     with col3: fbs      = st.text_input("Fasting Blood Sugar>120mg/dl(0=No;1=Yes)")
-    with col1: restecg  = st.text_input("Resting Electrocardiographic results")
+    with col1: restecg  = st.text_input("Resting ECG results(0=Normal;1=ST-T;2=LVH)")
     with col2: thalach  = st.text_input("Maximum Heart Rate achieved")
     with col3: exang    = st.text_input("Exercise Induced Angina(0=No;1=Yes)")
     with col1: oldpeak  = st.text_input("ST depression induced by exercise (Range: 0.0 to 6.0)")
