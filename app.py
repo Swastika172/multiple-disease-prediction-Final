@@ -656,7 +656,7 @@ if selected == "Heart Disease Prediction":
     st.title("Heart Disease Prediction using ML")
     col1, col2, col3 = st.columns(3)
     with col1: age      = st.text_input("Age")
-    with col2: sex      = st.text_input("Sex")
+    with col2: sex      = st.text_input("Sex: 0 = Female; 1 = Male")
     with col3: cp       = st.text_input("Chest Pain types")
     with col1: trestbps = st.text_input("Resting Blood Pressure")
     with col2: chol     = st.text_input("Serum Cholestoral in mg/dl")
